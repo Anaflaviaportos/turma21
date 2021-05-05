@@ -25,7 +25,7 @@ public class oiMundo {
 		System.out.println("Digite o numero 2; ");
 		numero2 = leia.nextInt();
 		
-		System.out.println("Soma:" +(numero1+numero2));3
+		System.out.println("Soma:" +(numero1+numero2));
 		
 		
 	
