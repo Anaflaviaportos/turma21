@@ -1,8 +1,6 @@
 package exemplos;
 
-import java.util.Scanner;
-
-
+ 
 public class cadAluno {
 
 	public static void main(String[] args) {

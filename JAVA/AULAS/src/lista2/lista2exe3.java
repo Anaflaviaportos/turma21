@@ -1,5 +1,5 @@
-package exercicios;
-
+package lista2;
+import java.util.Scanner;
 import java.util.Locale;
 import java.util.Scanner;
 
