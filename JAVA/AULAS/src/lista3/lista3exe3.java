@@ -15,6 +15,7 @@ public class lista3exe3 {
 		idade = ler.nextInt();
 		
 		while (idade>-99){
+			
 			if(idade>50){
 				deIdade++;		
 			}

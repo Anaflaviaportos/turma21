@@ -1,5 +1,4 @@
 package exerciciosdoportugol;
-import java.util.PrintStream;
 import java.util.Scanner;
 public class lista3exe3 {
 
