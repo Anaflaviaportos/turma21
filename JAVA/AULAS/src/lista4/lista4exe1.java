@@ -1,5 +1,5 @@
 package lista4;
-
+import java.util.Scanner;
 public class lista4exe1 {
 
 	public static void main(String[] args) {
@@ -11,6 +11,19 @@ public class lista4exe1 {
 		(c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
 		(d) Mostre na tela cada valor do vetor A, um em cada linha. */
 
+		Scanner leia = new Scanner(System.in);
+		
+		int A[] ={1,0,5,-2,-5,7};
+		int somaValores = 0;
+		
+		somaValores = somaValores +(A[0]+A[1]+A[5]);
+		
+		System.out.println("Soma entre os valores das posições A[0], A[1] e A[5]"+somaValores);
+		
+		A[4]=100;
+		
+		for(int x = 0;x<A.length;x++) {
+			System.out.print(A[x]+"\n");
+		}
 	}
-
 }
