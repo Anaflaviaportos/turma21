@@ -1,10 +1,10 @@
 package classes;
 
-public class Mestrado extends Estudante {
+public class Pos extends Estudante {
 	
-	private double bonus = 10.00;
+	private double bonus = 5.00;
 
-    public Mestrado(int matricula, String cpf, double bonus) {
+    public Pos(int matricula, String cpf, double bonus) {
         super(matricula, cpf);
         this.bonus = bonus;
     }

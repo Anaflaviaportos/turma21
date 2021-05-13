@@ -1,6 +1,6 @@
 package classes;
 
-public class Estudante {
+public abstract class Estudante {
 
 	//atributos - check - segurança
 		private int matricula;
@@ -25,12 +25,11 @@ public class Estudante {
 			this.status = status;
 		}
 
-		public Estudante(int matricula, String cpf, double pontos, boolean status) {
+		public Estudante(int matricula, String cpf, double pontos) {
 			super();
 			this.matricula = matricula;
 			this.cpf = cpf;
 			this.pontos = pontos;
-			this.status = status;
 		}
 		//encapsulamento - getters and setters
 		public int getMatricula() {
@@ -52,12 +51,6 @@ public class Estudante {
 		public double getPontos() {
 			return pontos;
 		}
-
-		/*
-		public void setPontos(double pontos) {
-			this.pontos = pontos;
-		}
-		*/
 
 		public boolean isStatus() {
 			return status;
