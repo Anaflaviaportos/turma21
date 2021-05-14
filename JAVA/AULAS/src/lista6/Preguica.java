@@ -17,6 +17,9 @@ public class Preguica  extends Animal {
 		public void setsobeArvore(boolean sobeArvore) {
 			this.sobeArvore = sobeArvore;
 		}
-		
+		@Override
+		public void som() {
+			System.out.println("zzzZZZzzZZZzzzZZZ");
+		}
 
 	}

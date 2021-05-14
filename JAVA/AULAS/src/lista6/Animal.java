@@ -46,6 +46,7 @@ public class Animal {
 	    	this.emiteSom = emiteSom;
 	    }
 	
-		
-
+	    public void som() {
+			System.out.println("Fazendo som....");
+	    }
 }

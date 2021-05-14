@@ -17,8 +17,9 @@ public class Cachorro extends Animal {
 		this.corre = corre;
 	}
 	
-	
-	
-	
+	@Override
+	public void som() {
+		System.out.println("Uurr Uurrr");
+	}
 
 }
